@@ -1,0 +1,48 @@
+.bottom{
+    display: flex;
+  justify-content: space-between; 
+}
+
+.pagination{
+    flex: 1 0 auto; 
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 25px;
+}
+
+.prev{
+    padding: 10px 8px;
+    border: none;
+    outline: none;
+}
+
+.curr{
+  padding: 15px 8px;
+  border: none;
+    outline: none;
+    margin-left: 25px;
+    background-color: rgb(253, 253, 151);
+}
+
+.next{
+    padding: 10px 8px;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
